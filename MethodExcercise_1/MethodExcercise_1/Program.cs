@@ -4,6 +4,29 @@ namespace MethodExcercise_1
 {
     class Program
     {
+        public static int Sum(int x, int y)
+        {
+            int result = x + y;
+            return result;
+        }
+
+        public static int Subtract(int x, int y)
+        {
+            int result = x + y;
+            return result;
+        }
+
+        public static int Multiply(int x, int y)
+        {
+            int result = x * y;
+            return result;
+        }
+
+        public static int Division(int x, int y)
+        {
+            int result = x / y;
+            return result;
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("What is your name?");
@@ -19,6 +42,7 @@ namespace MethodExcercise_1
                 $"color is {color}.\n" +
                 $"My favorite animal is a {animal} and my " +
                 $"favorite band is {band}.");
+
         }
     }
 }
